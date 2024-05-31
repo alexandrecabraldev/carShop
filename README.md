@@ -48,7 +48,7 @@ Este é o backend de uma loja de carros, desenvolvido utilizando Python, Flask e
 
 ## Estrutura do Projeto
 
-```
+
 carShop/
 ├── src/
 │   ├── controllers/
@@ -73,7 +73,7 @@ carShop/
 └── compose.yaml
 ├── requirements.txt
 └── ...
-```
+
 
 ## Endpoints Principais
 
@@ -95,5 +95,3 @@ carShop/
 - Cada carro deve tem as informações name, brand, model, price, image_url.
 - Só é possivel cadastrar um carro com a autenticação de administrador, assim como atualizar e deletar.
 - A rota GET /car é aberta, ou seja, pode ser acessada independente de autenticação.
-
-```
