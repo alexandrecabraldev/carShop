@@ -1,6 +1,6 @@
-./virtual
-./new_virtual
-./request.https
+virtual/
+new_virtual/
+request.https/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
