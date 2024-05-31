@@ -95,6 +95,11 @@ carShop/
 - Cada carro deve tem as informações: 
     name, brand, model, price, image_url.
 
+- Cada user tem as informações: 
+    username, email, password.
+    
+- No login se deve passar apenas email e password.
+
 - Só é possivel cadastrar um carro com a autenticação de administrador, assim como atualizar e deletar.
 
 - A rota GET /car é aberta, ou seja, pode ser acessada independente de autenticação.
