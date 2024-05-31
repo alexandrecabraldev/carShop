@@ -16,7 +16,7 @@ Este é o backend de uma loja de carros, desenvolvido utilizando Python, Flask e
 
     ```bash
     git clone https://github.com/alexandrecabraldev/carShop.git
-    
+    ```
 
 2. Criar um ambiente virtual (opcional, mas recomendado):
     Primeiro, crie e ative um ambiente virtual para isolar as dependências do seu projeto:
@@ -24,17 +24,17 @@ Este é o backend de uma loja de carros, desenvolvido utilizando Python, Flask e
     ```bash
     python -m venv nome_seu_ambiente_virtual
     nome_seu_ambiente_virtual\Scripts\activate
-    
+    ```
 3. Construa e inicie os serviços compose.yaml do docker:
 
     ```bash
     docker-compose up --build
-    
+    ```
 4. Instale as dependências:
 
     ```bash
     pip install -r requirements.txt
-    
+    ```
 
 ## Executando o Projeto
 
@@ -42,7 +42,7 @@ Este é o backend de uma loja de carros, desenvolvido utilizando Python, Flask e
 
     ```bash
     python src/app.py
-    
+    ```
 
 2. O servidor estará rodando em [http://localhost:5000](http://localhost:5000).
 
