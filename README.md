@@ -3,6 +3,10 @@
 
 Este é o backend de uma loja de carros, desenvolvido utilizando Python, Flask e Postgres. O projeto fornece APIs para autenticação, gerenciamento de carros e outras funcionalidades necessárias para a loja.
 
+# Frontend da aplicação
+
+O frontend dessa aplicação se encontra no https://github.com/alexandrecabraldev/carDealership-frontEnd
+
 ## Requisitos
 
 - Python (versão 3.12.2 ou superior)
