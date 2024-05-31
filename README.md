@@ -92,6 +92,13 @@ carShop/
 
 ### Dinâmica
 
-- Cada carro deve tem as informações name, brand, model, price, image_url.
+- Cada carro deve tem as informações: 
+    name, brand, model, price, image_url.
+
 - Só é possivel cadastrar um carro com a autenticação de administrador, assim como atualizar e deletar.
+
 - A rota GET /car é aberta, ou seja, pode ser acessada independente de autenticação.
+
+### Observação
+
+- Também existe a possibilidade de testar usando algum client HTTP de sua escolha como: Insomnia, Postman, HTTPie, etc.
