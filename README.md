@@ -39,7 +39,11 @@ O frontend dessa aplicação se encontra no https://github.com/alexandrecabralde
     ```bash
     pip install -r requirements.txt
     ```
+5. Rode as migrations do alembic:
 
+    ```bash
+    alembic upgrade head
+    ```
 ## Executando o Projeto
 
 1. Inicie o servidor:
